@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cel.Raul.Application\Cel.Raul.Application.csproj" />
+    <ProjectReference Include="..\Cel.Raul.AzureQueue\Cel.Raul.AzureQueue.csproj" />
+    <ProjectReference Include="..\Cel.Raul.Domain\Cel.Raul.Domain.csproj" />
+    <ProjectReference Include="..\Cel.Raul.PublisherMessage\Cel.Raul.PublisherMessage.csproj" />
+  </ItemGroup>
+
+
+</Project>

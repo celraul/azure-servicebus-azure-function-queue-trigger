@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cel.Raul.PublisherMessage", "Cel.Raul.PublisherMessage\Cel.Raul.PublisherMessage.csproj", "{BCB43AB0-9200-47ED-B196-691FB399611C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Api", "01 - Api", "{4BA68DFA-D0AE-40BD-B674-1BF8ED686D31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cel.Raul.Api", "Cel.Raul.Api\Cel.Raul.Api.csproj", "{24316862-BB70-459C-8F2D-33E8211B18A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{4E3B9341-7586-41E6-8044-265C4CFCD2AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cel.Raul.Application", "Cel.Raul.Application\Cel.Raul.Application.csproj", "{E693AC01-54DE-41F5-951F-27AC1DE31A07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{D59D468D-E62C-4ABC-AC6F-A1C707C4B62F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cel.Raul.Domain", "Cel.Raul.Domain\Cel.Raul.Domain.csproj", "{B50C5AE8-AC5C-4ADA-B340-CDB29D7552B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infra", "04 - Infra", "{3F61D262-460B-4730-96E3-0E5611467B9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 - CrossCutting", "{313C6D2D-AD82-4712-9216-D09A2C8A1E74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cel.Raul.CrossCutting", "Cel.Raul.CrossCutting\Cel.Raul.CrossCutting.csproj", "{0262B691-5C14-4117-BDCC-AD788829BF3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cel.Raul.AzureQueue", "Cel.Raul.AzureQueue\Cel.Raul.AzureQueue.csproj", "{E6214812-8B05-4F8D-8677-418441B40E9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cel.Raul.AzureFunctions", "Cel.Raul.AzureFunctions\Cel.Raul.AzureFunctions\Cel.Raul.AzureFunctions.csproj", "{93CEC529-AD57-41AD-BD8F-798CC6C3EF89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCB43AB0-9200-47ED-B196-691FB399611C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB43AB0-9200-47ED-B196-691FB399611C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB43AB0-9200-47ED-B196-691FB399611C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB43AB0-9200-47ED-B196-691FB399611C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24316862-BB70-459C-8F2D-33E8211B18A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24316862-BB70-459C-8F2D-33E8211B18A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24316862-BB70-459C-8F2D-33E8211B18A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24316862-BB70-459C-8F2D-33E8211B18A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E693AC01-54DE-41F5-951F-27AC1DE31A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E693AC01-54DE-41F5-951F-27AC1DE31A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E693AC01-54DE-41F5-951F-27AC1DE31A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E693AC01-54DE-41F5-951F-27AC1DE31A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50C5AE8-AC5C-4ADA-B340-CDB29D7552B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50C5AE8-AC5C-4ADA-B340-CDB29D7552B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50C5AE8-AC5C-4ADA-B340-CDB29D7552B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50C5AE8-AC5C-4ADA-B340-CDB29D7552B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0262B691-5C14-4117-BDCC-AD788829BF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0262B691-5C14-4117-BDCC-AD788829BF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0262B691-5C14-4117-BDCC-AD788829BF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0262B691-5C14-4117-BDCC-AD788829BF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6214812-8B05-4F8D-8677-418441B40E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6214812-8B05-4F8D-8677-418441B40E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6214812-8B05-4F8D-8677-418441B40E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6214812-8B05-4F8D-8677-418441B40E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93CEC529-AD57-41AD-BD8F-798CC6C3EF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CEC529-AD57-41AD-BD8F-798CC6C3EF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CEC529-AD57-41AD-BD8F-798CC6C3EF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CEC529-AD57-41AD-BD8F-798CC6C3EF89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24316862-BB70-459C-8F2D-33E8211B18A7} = {4BA68DFA-D0AE-40BD-B674-1BF8ED686D31}
+		{E693AC01-54DE-41F5-951F-27AC1DE31A07} = {4E3B9341-7586-41E6-8044-265C4CFCD2AD}
+		{B50C5AE8-AC5C-4ADA-B340-CDB29D7552B7} = {D59D468D-E62C-4ABC-AC6F-A1C707C4B62F}
+		{313C6D2D-AD82-4712-9216-D09A2C8A1E74} = {3F61D262-460B-4730-96E3-0E5611467B9E}
+		{0262B691-5C14-4117-BDCC-AD788829BF3E} = {313C6D2D-AD82-4712-9216-D09A2C8A1E74}
+		{E6214812-8B05-4F8D-8677-418441B40E9C} = {4E3B9341-7586-41E6-8044-265C4CFCD2AD}
+		{93CEC529-AD57-41AD-BD8F-798CC6C3EF89} = {4BA68DFA-D0AE-40BD-B674-1BF8ED686D31}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D595D6D-C597-43D5-A0AF-B67CC55B2384}
+	EndGlobalSection
+EndGlobal
